@@ -26,6 +26,7 @@ header {
     padding: 50px 0;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 10px
 }
 
 header h1 {
@@ -44,10 +45,11 @@ header p {
     margin-left: 40px; /* Margine sinistro più ampio */
     margin-right: 40px;
     border-left: 4px solid #ff6f91; /* Linea laterale fucsia */
+    border-radius: 8px
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: #ff6f91; /* Fucsia */
 }
@@ -62,13 +64,14 @@ header p {
 /* Certifications Section */
 #certifications {
     background-color: #fff3f7; /* Fucsia chiaro */
-    padding: 40px 0;
+    padding: 50px 0;
     margin-left: 40px;
     margin-right: 40px;
+    border-radius: 8px;
 }
 
 #certifications h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: #9c4e97; /* Viola */
 }
@@ -78,7 +81,7 @@ header p {
 }
 
 #certifications li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #333;
     margin-bottom: 10px;
 }
@@ -90,13 +93,14 @@ header p {
 /* Projects Section */
 #projects {
     background-color: #ffffff;
-    padding: 40px 0;
+    padding: 50px 0;
     margin-left: 40px;
     margin-right: 40px;
+    border-radius: 8px;
 }
 
 #projects h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: #f67280; /* Fucsia/arancio */
 }
@@ -105,12 +109,12 @@ header p {
     background: #f9e0e7; /* Rosa chiaro per i progetti */
     padding: 20px;
     margin-bottom: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
     color: #f67280; /* Fucsia/arancio */
 }
