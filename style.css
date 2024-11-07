@@ -38,7 +38,7 @@ header p {
 #about {
     background-color: #ffffff;
     padding: 40px 0;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 #about h2 {
@@ -58,6 +58,7 @@ header p {
 #certifications {
     background-color: #f4e1f0;
     padding: 40px 0;
+    margin-left: 30px;
 }
 
 #certifications h2 {
@@ -84,6 +85,7 @@ header p {
 #projects {
     background-color: #ffffff;
     padding: 40px 0;
+    margin-left: 30px;
 }
 
 #projects h2 {
