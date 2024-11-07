@@ -10,6 +10,7 @@ body {
     background-color: #f7f3f9;
     color: #333;
     line-height: 1.6;
+    padding-left: 20px; /* Margine a sinistra */
 }
 
 .container {
@@ -19,10 +20,12 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(to right, #d16ba5, #a4508b);
+    background: linear-gradient(to right, #ff6f91, #9c4e97); /* Fucsia e viola */
     color: white;
     text-align: center;
     padding: 50px 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header h1 {
@@ -38,13 +41,15 @@ header p {
 #about {
     background-color: #ffffff;
     padding: 40px 0;
-    margin-left: 40px;
+    margin-left: 40px; /* Margine sinistro più ampio */
+    margin-right: 40px;
+    border-left: 4px solid #ff6f91; /* Linea laterale fucsia */
 }
 
 #about h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #d16ba5;
+    color: #ff6f91; /* Fucsia */
 }
 
 #about p {
@@ -56,15 +61,16 @@ header p {
 
 /* Certifications Section */
 #certifications {
-    background-color: #f4e1f0;
+    background-color: #fff3f7; /* Fucsia chiaro */
     padding: 40px 0;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #certifications h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #a4508b;
+    color: #9c4e97; /* Viola */
 }
 
 #certifications ul {
@@ -78,24 +84,25 @@ header p {
 }
 
 #certifications li strong {
-    color: #d16ba5;
+    color: #ff6f91; /* Fucsia per i titoli */
 }
 
 /* Projects Section */
 #projects {
     background-color: #ffffff;
     padding: 40px 0;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #projects h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #b565a7;
+    color: #f67280; /* Fucsia/arancio */
 }
 
 .project {
-    background: #f9f3fa;
+    background: #f9e0e7; /* Rosa chiaro per i progetti */
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -105,7 +112,7 @@ header p {
 .project h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #b565a7;
+    color: #f67280; /* Fucsia/arancio */
 }
 
 .project p {
@@ -119,10 +126,12 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer a {
-    color: #d16ba5;
+    color: #ff6f91; /* Fucsia */
     text-decoration: none;
 }
 
