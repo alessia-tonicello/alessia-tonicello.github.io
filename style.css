@@ -38,6 +38,7 @@ header p {
 #about {
     background-color: #ffffff;
     padding: 40px 0;
+    margin-left: 10px;
 }
 
 #about h2 {
